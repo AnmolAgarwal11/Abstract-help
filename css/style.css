@@ -1,0 +1,186 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+    background-color: #fff;
+    font-family: 'GT America Standard', sans-serif;
+    margin: 0px;
+}
+h1
+{
+    display: block;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-bottom: 2rem;
+}
+
+h2
+{
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3
+{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.header
+{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    
+}
+#header-text
+{
+    display: inline-block;
+    padding-left: 130px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-right: 40%;
+}
+
+#sign-in
+{
+    display: inline-block;
+    text-align: right;
+}
+#search-bar
+{
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #8a8a8a;
+    font-size: 19px;
+    background: #ffffff;
+    padding: 20px 400px 20px 20px;
+    border: solid #000000 1.2px;
+    text-decoration: none;
+}
+.sb:hover #search-bar
+{
+    background: #ffffff;
+    text-decoration: none;
+    border: solid #0083d4 1.2px;
+    transition: 0.12s;
+}
+#submit-button
+{
+    float: none;
+    position: relative;
+    top: 3px;
+    right: 70px;
+    background-color: #ffffff;
+    border-style: none;
+    font-size: 1.5rem;
+
+}
+.sb:hover #submit-button
+{
+    color : #0083d4;
+}
+#submit-a-request
+{   
+    display: inline-block;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #282828;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 1.2px;
+    text-decoration: none;
+    line-height: 1.3;
+    margin-right: 10px;
+}   
+#sign-in
+{   
+    display: inline-block;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #4C5FD5;
+    padding: 11px 24px 11px 24px;
+    border: none;
+    text-decoration: none;
+    line-height: 1.3;
+}     
+
+#sign-in:hover
+{
+    color: #4C5FD5;
+    background: #ffffff;
+    transition: 0.12s;
+}
+
+.top-container
+{
+    background-color: #dadbf1;
+    margin: 0px;
+    padding: 100px 0px 110px 0px;
+    text-align: center;
+
+}
+
+.mid-container
+{
+    padding: 11% 8%;
+}
+
+
+.mid-container p
+{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.container-block
+{
+    padding: 5% 2%;
+}
+
+.mid-img 
+{
+    width: 15%;
+    float: left;
+    margin: 10px 30px 50px;
+}
+
+.bottom-container
+{
+    background-color: #000000;
+    padding: 4% 4%;
+    color: #fff;
+    padding-bottom: 200px;
+}
+
+.copyrights
+{
+    position: relative;
+    left: 80px;
+    top: 180px;
+    font-size: 20px;
+}
+
+a
+{
+    display: block;
+    padding: 2px 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
